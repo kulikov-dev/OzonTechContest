@@ -1,7 +1,7 @@
 ﻿namespace OzonTechContest
 {
     /// <summary>
-    /// Задача "сумма к оплате"
+    /// Задача "Сумма к оплате"
     /// </summary>
     /// <remarks>
     ///Дан массив цен за список продуктов, купленных в магазине. Товары с одинаковой стоимостью считаются одинаковыми.
@@ -10,10 +10,10 @@
     public sealed class PayableAmount_1
     {
         /// <summary>
-        /// Вспомогательный метод для чтения входных данных из консоли
+        /// Метод обработки данных с консоли
         /// </summary>
         /// <exception cref="ArgumentException"> Ошибка входных данных </exception>
-        public void ReadData()
+        public void ProcessConsole()
         {
             var totalProductsStr = Console.ReadLine() ?? "0";
             var totalProducts = int.Parse(totalProductsStr);
@@ -44,10 +44,6 @@
         /// </summary>
         /// <param name="prices"> Количество цен товаров в чеке </param>
         /// <returns> Итоговая сумма к оплате </returns>
-        /// <remarks>
-        /// Time complexity: O(n)
-        /// Space complexity: O(n)
-        /// </remarks>
         public static double CalcPayableAmount(List<int> prices)
         {
             var productsDict = new Dictionary<int, int>();
