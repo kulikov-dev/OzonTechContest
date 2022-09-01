@@ -1,2 +1,2 @@
-# OzonTechContest
-OzonTech contest tasks solutions for .Net route
+## OzonTechContest
+   Решение задач контеста от Ozon для участия в курсе OzonTech "Продвинутая разработка микросервисов на .NET".
