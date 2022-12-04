@@ -1,4 +1,4 @@
 ### OzonTechContest
-   Решение задач двух четырехчасовых раундов контеста от Ozon для участия в курсе OzonTech ["Продвинутая разработка микросервисов на .NET"](https://route256.ozon.ru/c-sharp).
+  Solved problems of four-hour contest round from Ozon to participate in the OzonTech cource ["Advanced development of microservices on .NET"](https://route256.ozon.ru/c-sharp).
 
-#### P.S. не все решения прошли рефакторинг в условиях ограниченного количества времени при решении задач на контесте.
+#### P.S. Not all solutions were refactored due to time constraints.
